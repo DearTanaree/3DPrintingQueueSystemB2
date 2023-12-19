@@ -113,6 +113,11 @@ button:hover {
   background-color: #0056b3;
 }
 
+button a{
+    color: #fff;
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 1000px) {
     .con {
             width: 85%;
