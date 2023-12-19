@@ -40,13 +40,6 @@ ul {
     font-weight: bolder;
 }
 
-.navbar li a{
-    color : white;
-}
-
-
-
-
 .login-con {
     width: 100%;
     display: flex;
