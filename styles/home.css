@@ -97,15 +97,26 @@ a {
     flex-direction: column;
 }
 
-.first-button , .second-button {
+.first-button , .reset, .submit {
     display: inline-flex;
     padding: 5px 25px;
     margin: 15px;
     font-size: 20px;
     color: white;
-    background-color: #9D9999;
     border-radius: 6px;
     border-color: #9D9999;
+}
+
+.first-button{
+ background-color: #9D9999;
+}
+
+.reset {
+    background-color: red;
+}
+
+.submit{
+    background-color:rgb(6, 186, 12);
 }
 
 input[type="text"],
