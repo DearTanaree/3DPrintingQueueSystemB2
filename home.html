@@ -104,8 +104,8 @@
                     <input type="number" id="end" name="end" min="1"   placeholder="hours" required>
                 </li>
                 <br>
-                <button class="second-button" type="reset">Reset</button>
-                <button class="second-button" type="submit" value="Submit">Submit</button>
+                 <button class="reset" type="reset">Reset</button>
+                <button class="submit" type="submit" value="Submit">Submit</button>
                 </ul>
             </form>
         </div>
@@ -119,9 +119,7 @@
                 var dateValue = document.getElementById('date').value;
                 var numberprinterValue = document.getElementById('printer').value
                 var numberValue = document.getElementById('end').value
-                /*var nameValue = document.getElementById('nameInput').value;
-                var emailValue = document.getElementById('emailInput').value;
-                var floatValue = parseFloat(document.getElementById('floatInput').value);*/
+                
 
                 // Store form data in localStorage
                 localStorage.setItem('project', nameValue);
